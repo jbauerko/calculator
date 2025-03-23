@@ -28,11 +28,19 @@ body {
     gap: 10px;
 }
   
-button {
+.button {
     background-color: #444;
     color: white;
     padding: 20px;
     font-size: 1.5em;
     border: none;
     border-radius: 5px;
+}
+
+#clear {
+    display: flex;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 0;
+    background-color: rgb(210, 148, 40);
 }
